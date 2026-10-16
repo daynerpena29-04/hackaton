@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+dist
+*.log
+data/backups/
+server/data/*.db*
+!server/data/default_campuslands_data.json
+!server/data/sample_*.csv
+.env
