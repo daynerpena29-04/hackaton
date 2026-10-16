@@ -1,0 +1,5 @@
+id,name,type,capacity,status,location,equipment_summary
+SP-009,Laboratorio IoT & Robótica,LABORATORIO,28,DISPONIBLE,Piso 2 - Ala Este,Osciloscopios digitales y Kits Arduino/ESP32
+SP-010,Sala de Creatividad y UI/UX,AULA,20,DISPONIBLE,Piso 3 - Torre B,Mesas de diseño y Wacom Cintiq 22
+SP-011,Cabina Podcast & Streaming,CUBICULO,2,EN_MANTENIMIENTO,Piso 1 - Medios,Insonorización acústica y micro Rode PodMic
+SP-012,Auditorio Principal Campuslands,AULA,120,DISPONIBLE,Planta Baja,Escenario central y sistema line array

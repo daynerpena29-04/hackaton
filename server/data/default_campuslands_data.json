@@ -1,0 +1,270 @@
+{
+  "spaces": [
+    {
+      "id": "SP-001",
+      "name": "Aula Artemis",
+      "type": "AULA",
+      "capacity": 40,
+      "status": "DISPONIBLE",
+      "location": "Piso 1 - Ala Norte",
+      "equipment_summary": "40 PCs Core i7, 2 Pantallas interactivas 75', AC Dual Inverter, Red 1Gbps"
+    },
+    {
+      "id": "SP-002",
+      "name": "Aula Sputnik",
+      "type": "AULA",
+      "capacity": 35,
+      "status": "DISPONIBLE",
+      "location": "Piso 1 - Ala Sur",
+      "equipment_summary": "35 PCs Ryzen 7, Sistema de Audio Ambiental, Proyector Láser Epson"
+    },
+    {
+      "id": "SP-003",
+      "name": "Aula Apollo",
+      "type": "AULA",
+      "capacity": 45,
+      "status": "DISPONIBLE",
+      "location": "Piso 2 - Ala Norte",
+      "equipment_summary": "45 Workstations Dell, Fibra Óptica Redundante, AC Central"
+    },
+    {
+      "id": "SP-004",
+      "name": "Aula Review",
+      "type": "AULA",
+      "capacity": 25,
+      "status": "EN_MANTENIMIENTO",
+      "location": "Piso 2 - Ala Sur",
+      "equipment_summary": "25 Laptops HP ProBook, Sistema Videoconferencia Logitech Rally"
+    },
+    {
+      "id": "SP-005",
+      "name": "Cubículo 101 (Innovación)",
+      "type": "CUBICULO",
+      "capacity": 6,
+      "status": "DISPONIBLE",
+      "location": "Piso 3 - Coworking",
+      "equipment_summary": "Smart TV 55', Pizarra Acrílica, Hub Multipuesto USB-C"
+    },
+    {
+      "id": "SP-006",
+      "name": "Cubículo 102 (Desarrollo)",
+      "type": "CUBICULO",
+      "capacity": 4,
+      "status": "DISPONIBLE",
+      "location": "Piso 3 - Coworking",
+      "equipment_summary": "4 Monitores UltraSharp 27', Conexión Cableada LAN"
+    },
+    {
+      "id": "SP-007",
+      "name": "Cubículo 103 (Mentorías)",
+      "type": "CUBICULO",
+      "capacity": 4,
+      "status": "INHABILITADO",
+      "location": "Piso 3 - Coworking",
+      "equipment_summary": "Inhabilitado preventivamente por filtración en cielo raso"
+    },
+    {
+      "id": "SP-008",
+      "name": "Cafetería & Networking",
+      "type": "ESPACIO_COMUN",
+      "capacity": 60,
+      "status": "DISPONIBLE",
+      "location": "Planta Baja",
+      "equipment_summary": "Mesas de co-creación, Sistema de Sonido, Microondas, Cafetera"
+    }
+  ],
+  "assets": [
+    {
+      "id": "EQ-101",
+      "name": "Laptop HP ProBook 450 G9",
+      "category": "LAPTOP",
+      "serial_number": "HP-PB450-01",
+      "status": "DISPONIBLE",
+      "condition_notes": "Excelente estado, cargador original y maletín",
+      "assigned_location": "Bodega TI Central"
+    },
+    {
+      "id": "EQ-102",
+      "name": "Laptop HP ProBook 450 G9",
+      "category": "LAPTOP",
+      "serial_number": "HP-PB450-02",
+      "status": "PRESTADO",
+      "condition_notes": "Préstamo activo a Camper Daniela Morales",
+      "assigned_location": "Aula Artemis"
+    },
+    {
+      "id": "EQ-103",
+      "name": "MacBook Pro M2 14'",
+      "category": "LAPTOP",
+      "serial_number": "AP-MBP14-01",
+      "status": "DISPONIBLE",
+      "condition_notes": "Equipo de alto rendimiento para trainers de desarrollo móvil",
+      "assigned_location": "Bodega TI Central"
+    },
+    {
+      "id": "EQ-104",
+      "name": "Laptop Dell Vostro 3520",
+      "category": "LAPTOP",
+      "serial_number": "DL-VOS35-01",
+      "status": "DANADO",
+      "condition_notes": "Pantalla fisurada e inoperativa tras caída en pasillo",
+      "assigned_location": "Taller de Mantenimiento"
+    },
+    {
+      "id": "EQ-105",
+      "name": "Monitor Dell 27' 4K UltraSharp",
+      "category": "MONITOR",
+      "serial_number": "DL-U2723-01",
+      "status": "DISPONIBLE",
+      "condition_notes": "Panel IPS 4K, base ergonómica y cables HDMI/DP incluidos",
+      "assigned_location": "Bodega TI Central"
+    },
+    {
+      "id": "EQ-106",
+      "name": "Monitor Dell 27' 4K UltraSharp",
+      "category": "MONITOR",
+      "serial_number": "DL-U2723-02",
+      "status": "EN_MANTENIMIENTO",
+      "condition_notes": "Puerto USB-C no entrega carga eléctrica, en revisión técnica",
+      "assigned_location": "Taller de Mantenimiento"
+    },
+    {
+      "id": "EQ-107",
+      "name": "Proyector Epson PowerLite L520U",
+      "category": "PROYECTOR",
+      "serial_number": "EP-PL520-01",
+      "status": "DISPONIBLE",
+      "condition_notes": "5200 lúmenes láser, control remoto y cable HDMI 10m",
+      "assigned_location": "Bodega TI Central"
+    },
+    {
+      "id": "EQ-108",
+      "name": "Proyector Epson PowerLite L520U",
+      "category": "PROYECTOR",
+      "serial_number": "EP-PL520-02",
+      "status": "INHABILITADO",
+      "condition_notes": "Bloque óptico desgastado, descontinuado para reemplazo",
+      "assigned_location": "Bodega Baja"
+    },
+    {
+      "id": "EQ-109",
+      "name": "Kit Microfonía Inalámbrica Shure BLX288",
+      "category": "AUDIO",
+      "serial_number": "SH-BLX288-01",
+      "status": "DISPONIBLE",
+      "condition_notes": "2 micrófonos de mano, receptor dual y baterías recargables",
+      "assigned_location": "Bodega TI Central"
+    },
+    {
+      "id": "EQ-110",
+      "name": "Switch Cisco Catalyst 24 Puertos Gigabit",
+      "category": "RED",
+      "serial_number": "CS-C1000-01",
+      "status": "DISPONIBLE",
+      "condition_notes": "Equipo de repuesto para contingencias de red",
+      "assigned_location": "Rack Servidores Piso 1"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "RSV-001",
+      "space_id": "SP-001",
+      "title": "Taller Node.js Backend & Clean Architecture",
+      "responsible_name": "Andrés Bello (Trainer Senior)",
+      "responsible_email": "andres.bello@campuslands.com",
+      "date": "2026-10-16",
+      "start_time": "08:00",
+      "end_time": "12:00",
+      "attendees_count": 35,
+      "purpose": "Sesión intensiva para grupo M2 de desarrollo web",
+      "status": "CONFIRMADA"
+    },
+    {
+      "id": "RSV-002",
+      "space_id": "SP-002",
+      "title": "Hackatón Campuslands - Pitch & Mentoring",
+      "responsible_name": "Coordinación Académica",
+      "responsible_email": "coordinacion@campuslands.com",
+      "date": "2026-10-16",
+      "start_time": "14:00",
+      "end_time": "18:00",
+      "attendees_count": 30,
+      "purpose": "Apertura y sustentación de proyectos de hackatón",
+      "status": "CONFIRMADA"
+    }
+  ],
+  "loans": [
+    {
+      "id": "LN-001",
+      "asset_id": "EQ-102",
+      "borrower_name": "Daniela Morales",
+      "borrower_role": "CAMPER",
+      "borrower_id_card": "1098765432",
+      "loan_date": "2026-10-15 09:30",
+      "expected_return_date": "2026-10-17 18:00",
+      "return_date": null,
+      "status": "ACTIVO",
+      "initial_condition": "Laptop en óptimo estado, cargador OK",
+      "return_condition": null,
+      "notes": "Préstamo para desarrollo de proyecto hackatón"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "INC-001",
+      "title": "Falla intermitente en aire acondicionado Aula Apollo",
+      "description": "El compresor del AC central se apaga repentinamente cada 20 minutos. Con 42 campers en clase la temperatura sube a más de 31°C provocando incomodidad.",
+      "location_or_space_id": "SP-003",
+      "category": "CLIMATIZACION",
+      "priority": "ALTA",
+      "status": "ABIERTA",
+      "responsible_area": "MANTENIMIENTO_FISICO",
+      "reported_by": "Carlos Ruiz (Trainer)",
+      "ai_classification": "{\"suggested_category\":\"CLIMATIZACION\",\"suggested_priority\":\"ALTA\",\"suggested_area\":\"MANTENIMIENTO_FISICO\",\"suggested_solution\":\"Revisar presostato del compresor principal y desplegar ventiladores temporales.\",\"explanation\":\"Afecta a más de 40 campers en clase activa.\",\"confidence\":0.94,\"model_used\":\"Gemini-Pro-Ops\"}",
+      "ai_status": "APLICADO",
+      "solution_notes": null
+    },
+    {
+      "id": "INC-002",
+      "title": "Pérdida total de conectividad Wi-Fi en Cubículos Piso 3",
+      "description": "El Access Point Cisco del corredor piso 3 quedó con luz ámbar fija. Ningún equipo portátil se puede conectar a internet ni a la red local.",
+      "location_or_space_id": "SP-005",
+      "category": "CONECTIVIDAD",
+      "priority": "CRITICA",
+      "status": "EN_PROCESO",
+      "responsible_area": "SOPORTE_TI",
+      "reported_by": "Laura Gómez (Camper Líder)",
+      "ai_classification": "{\"suggested_category\":\"CONECTIVIDAD\",\"suggested_priority\":\"CRITICA\",\"suggested_area\":\"SOPORTE_TI\",\"suggested_solution\":\"Reiniciar puerto PoE 14 en switch de piso o sustituir por AP de respaldo.\",\"explanation\":\"Bloquea despliegues de múltiples equipos en hackatón.\",\"confidence\":0.98,\"model_used\":\"Gemini-Pro-Ops\"}",
+      "ai_status": "APLICADO",
+      "solution_notes": "Técnico en camino con tester de cableado y PoE."
+    },
+    {
+      "id": "INC-003",
+      "title": "Chispa y olor a quemado en canaleta eléctrica Aula Artemis",
+      "description": "Al conectar una zapatilla de alimentación en el puesto 18 saltó un arco eléctrico y se percibe olor a plástico quemado.",
+      "location_or_space_id": "SP-001",
+      "category": "ELECTRICA",
+      "priority": "CRITICA",
+      "status": "ABIERTA",
+      "responsible_area": "MANTENIMIENTO_FISICO",
+      "reported_by": "Juan Pérez (Staff Operaciones)",
+      "ai_classification": null,
+      "ai_status": "PENDIENTE",
+      "solution_notes": null
+    },
+    {
+      "id": "INC-004",
+      "title": "Cable HDMI de proyector en Aula Sputnik averiado",
+      "description": "La imagen parpadea en color verde cuando se mueve el conector en la mesa del docente.",
+      "location_or_space_id": "SP-002",
+      "category": "EQUIPOS",
+      "priority": "MEDIA",
+      "status": "RESUELTA",
+      "responsible_area": "SOPORTE_TI",
+      "reported_by": "Andrés Bello (Trainer)",
+      "ai_classification": "{\"suggested_category\":\"EQUIPOS\",\"suggested_priority\":\"MEDIA\",\"suggested_area\":\"SOPORTE_TI\",\"suggested_solution\":\"Sustituir cable HDMI de 5 metros por repuesto blindado.\",\"explanation\":\"Falla física de pines en terminal HDMI.\",\"confidence\":0.92,\"model_used\":\"Gemini-Pro-Ops\"}",
+      "ai_status": "APLICADO",
+      "solution_notes": "Se reemplazó el cable por uno blindado 4K de 5m con conectores dorados."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+id,title,description,location_or_space_id,category,priority,status,responsible_area,reported_by
+INC-005,Gotera en cielo falso sobre mesa 2,Filtracion de agua de condensacion de ducto de AC goteando cerca de regletas,SP-001,INFRAESTRUCTURA,ALTA,ABIERTA,MANTENIMIENTO_FISICO,Camper Julian Diaz
+INC-006,Falla de login en portal camper local,El servidor de autenticacion local arroja error 502 Bad Gateway intermitente,SP-002,CONECTIVIDAD,MEDIA,ABIERTA,SOPORTE_TI,Trainer Sofia Castro
+INC-007,Proyector no enciende con control ni boton,No da senal luminosa en panel LED led indicador apagado por completo,SP-003,EQUIPOS,ALTA,ABIERTA,SOPORTE_TI,Trainer Carlos Ruiz

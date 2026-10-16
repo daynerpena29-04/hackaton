@@ -1,0 +1,17 @@
+{
+  "name": "hackaton-campuslands",
+  "version": "1.0.0",
+  "description": "Sistema Central de Gestión Operativa del Campus - Hackatón Campuslands",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test:rules": "npm run test:rules --prefix server",
+    "build": "npm run build --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

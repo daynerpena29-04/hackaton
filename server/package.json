@@ -1,0 +1,21 @@
+{
+  "name": "campuslands-ops-server",
+  "version": "1.0.0",
+  "description": "Sistema Central de Gestión Operativa del Campus - Backend API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "seed": "node src/db/seed.js",
+    "test:rules": "node src/rules/testRules.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

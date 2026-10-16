@@ -1,0 +1,5 @@
+id,name,category,serial_number,status,condition_notes,assigned_location
+EQ-111,Camara Web Logitech Brio 4K,PERIFERICO,LG-BRIO-01,DISPONIBLE,HDR y microfono dual,Bodega TI Central
+EQ-112,Tableta Grafica Wacom Intuos Pro,PERIFERICO,WC-INTU-01,DISPONIBLE,Lapiz Pro Pen 2 y cable USB-C,Bodega TI Central
+EQ-113,Tester Fluke CableAnalyzer Cat6A,HERRAMIENTA,FL-CAT6-01,DISPONIBLE,Certificacion de cableado estructurado,Taller de Mantenimiento
+EQ-114,Servidor NAS Synology 8TB,RED,SY-DS923-01,DISPONIBLE,RAID 1 configurado para backups locales,Rack Servidores
