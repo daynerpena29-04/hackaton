@@ -127,3 +127,6 @@ npm run test:rules
 * **Backend:** Node.js v20+, Express 4, Better-SQLite3, Multer, CSV-Parse.
 * **Persistencia:** SQLite relacional en modo WAL con claves foráneas activas.
 * **IA:** REST API nativa Gemini / OpenAI con validación JSON estructurada y timeouts de 12s.
+   
+
+   
